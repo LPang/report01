@@ -11,6 +11,17 @@
   </welcome-file-list>
   <servlet>
     <description></description>
+    <display-name>default</display-name>
+    <servlet-name>default</servlet-name>
+    <servlet-class>web.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
     <display-name>LoginServlet</display-name>
     <servlet-name>LoginServlet</servlet-name>
     <servlet-class>web.servlet.LoginServlet</servlet-class>
